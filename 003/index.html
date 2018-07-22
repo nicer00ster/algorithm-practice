@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+    Given an array of integers, calculate the fractions of its elements that are positive, negative,
+    and are zeros. Print the decimal value of each fraction on a new line.
+    </title>
+  </head>
+  <script>
+    const plusMinus = arr => {
+      let plus = 0;
+      let minus = 0;
+      let zero = 0;
+      arr.map(val => {
+        if(val < 0) {
+          minus++;
+        } else if (val > 0) {
+          plus++;
+        } else {
+          zero++
+        }
+      });
+      console.log((plus / arr.length).toPrecision(6));
+      console.log((minus / arr.length).toPrecision(6));
+      console.log((zero / arr.length).toPrecision(6));
+    };
+  </script>
+  <body>
+
+  </body>
+</html>

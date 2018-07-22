@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Palindrome</title>
+  </head>
+  <script>
+    // The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+    const palindrome = str => {
+      const arr = [];
+      [ ...str ].forEach(letter => arr.unshift(letter));
+      return str === arr.join('');
+    };
+  </script>
+  <body>
+
+  </body>
+</html>
