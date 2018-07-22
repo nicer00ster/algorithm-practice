@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Return the total number of highest values within the array.</title>
+  </head>
+  <script>
+    const totalHighestNumbers = arr => {
+      const max = Math.max(...arr);
+      let result = arr.filter(current => current === max);
+      return result;
+    };
+  </script>
+  <body>
+
+  </body>
+</html>
