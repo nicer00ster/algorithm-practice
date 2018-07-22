@@ -4,3 +4,4 @@
 3. - [x] Given an array of integers, calculate the fractions of its elements that are positive, negative,
    and are zeros. Print the decimal value of each fraction on a new line.
 4. - [x] Return the total number of highest values within the array.
+5. - [ ] Time conversion. Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
